@@ -8,7 +8,7 @@ public class ProceduralEnvironment : MonoBehaviour
     private GameObject TileToSpawn; // Tile to spawn
     private Vector3 spawnPosition = Vector3.zero; // Origin
     private float tileLength = 10f; // Length of each tile
-    private int tilesToSpawn = 10; // Number of tiles to spawn
+    private int tilesToSpawn = 100; // Number of tiles to spawn
 
     // Start is called before the first frame update
     void Start()
