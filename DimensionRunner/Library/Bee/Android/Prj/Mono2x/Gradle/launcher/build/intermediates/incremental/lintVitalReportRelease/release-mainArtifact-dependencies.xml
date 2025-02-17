@@ -1,0 +1,23 @@
+<dependencies>
+  <compile
+      roots="E:\GITHUB\ProgettiUnity\DimensionRunner\DimensionRunner\Library\Bee\Android\Prj\Mono2x\Gradle@@:unityLibrary::release">
+    <dependency
+        name="E:\GITHUB\ProgettiUnity\DimensionRunner\DimensionRunner\Library\Bee\Android\Prj\Mono2x\Gradle@@:unityLibrary::release"
+        simpleName="Gradle:unityLibrary"/>
+  </compile>
+  <package
+      roots="E:\GITHUB\ProgettiUnity\DimensionRunner\DimensionRunner\Library\Bee\Android\Prj\Mono2x\Gradle@@:unityLibrary::release,__local_aars__:E:\GITHUB\ProgettiUnity\DimensionRunner\DimensionRunner\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\libs\classes.jar:unspecified@jar,__local_aars__:E:\GITHUB\ProgettiUnity\DimensionRunner\DimensionRunner\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\libs\unity-classes.jar:unspecified@jar,E:\GITHUB\ProgettiUnity\DimensionRunner\DimensionRunner\Library\Bee\Android\Prj\Mono2x\Gradle@@:unityLibrary:mobilenotifications.androidlib::release">
+    <dependency
+        name="E:\GITHUB\ProgettiUnity\DimensionRunner\DimensionRunner\Library\Bee\Android\Prj\Mono2x\Gradle@@:unityLibrary::release"
+        simpleName="Gradle:unityLibrary"/>
+    <dependency
+        name="__local_aars__:E:\GITHUB\ProgettiUnity\DimensionRunner\DimensionRunner\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\libs\classes.jar:unspecified@jar"
+        simpleName="__local_aars__:E:\GITHUB\ProgettiUnity\DimensionRunner\DimensionRunner\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\libs\classes.jar"/>
+    <dependency
+        name="__local_aars__:E:\GITHUB\ProgettiUnity\DimensionRunner\DimensionRunner\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\libs\unity-classes.jar:unspecified@jar"
+        simpleName="__local_aars__:E:\GITHUB\ProgettiUnity\DimensionRunner\DimensionRunner\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\libs\unity-classes.jar"/>
+    <dependency
+        name="E:\GITHUB\ProgettiUnity\DimensionRunner\DimensionRunner\Library\Bee\Android\Prj\Mono2x\Gradle@@:unityLibrary:mobilenotifications.androidlib::release"
+        simpleName="Gradle.unityLibrary:mobilenotifications.androidlib"/>
+  </package>
+</dependencies>
