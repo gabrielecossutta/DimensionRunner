@@ -6,6 +6,9 @@ public class RunForward : MonoBehaviour
     // Reference to the player
     private GameObject Player;
 
+    // Reference to the player's animator
+    private Animator PlayerAnimator;
+
     // Reference to the camera
     [SerializeField] 
     private GameObject Camera;
@@ -55,6 +58,9 @@ public class RunForward : MonoBehaviour
     {
         // Set the reference of the player
         Player = this.gameObject;
+
+        // Set the reference of the player's animator
+        PlayerAnimator = Player.GetComponent<Animator>();
 
         // Set the reference of rigidbody
         rb = this.GetComponent<Rigidbody>();
@@ -129,7 +135,7 @@ public class RunForward : MonoBehaviour
 
     void LateralMovement()
     {
-        // Checl if the player is not at the destination
+        // Check if the player is not at the destination
         if (Vector3.Distance(Destination, Player.transform.position) > Tollerance)
         {
             // Move the Player to the Destination
@@ -163,6 +169,9 @@ public class RunForward : MonoBehaviour
         // Check if the player is grounded
         if (!isJumping)
         {
+            // Set to true the jump animation to animate the jump
+            PlayerAnimator.SetBool("Jump", true);
+
             // Play the jump sound effect
             AudioScript.Instance.PlayEffect(AudioScript.Effects.Jump);
 
@@ -180,7 +189,8 @@ public class RunForward : MonoBehaviour
     // Method to check if the player is colliding with the ground
     private void OnCollisionEnter(Collision collision)
     {
-            isJumping = false; 
+            isJumping = false;
+            PlayerAnimator.SetBool("Jump", false);
     }
 
     public void MoveRight()
