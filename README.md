@@ -25,11 +25,11 @@ Dodge the obstacles in your path, but don't worry, your shield will protect you 
 ## DifferentPath
 Since the obstacles are randomly generated, you can overcome them in different ways:
 
-### _________________ Using the teleport _______________
+### _________________ Jumping Over ________________
 
 ![DifferentPath](./GIF/DifferentPath.gif)
 
-### _________________ Using the teleport _______________
+### ________________ Using the teleport ______________
 
 ![Portals](./GIF/Portals.gif)
 #
